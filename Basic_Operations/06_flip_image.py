@@ -1,7 +1,7 @@
 import cv2  # Import OpenCV library
 
-# Read the image 'lena.jpg'
-image = cv2.imread('lena.jpg')
+# Read the image 'lena_small.jpg'
+image = cv2.imread('lena_small.jpg')
 
 # Flip the image horizontally (1 = horizontal flip)
 flipped_image = cv2.flip(image, 100)

@@ -1,8 +1,8 @@
 import cv2
 import numpy as np
 
-# Read the image 'lena.jpg'
-image = cv2.imread('lena.jpg')
+# Read the image 'lena_small.jpg'
+image = cv2.imread('lena_small.jpg')
 
 # Split the image into its B, G, and R color channels
 b, g, r = cv2.split(image)

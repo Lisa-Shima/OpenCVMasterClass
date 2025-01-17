@@ -1,7 +1,7 @@
 import cv2  # Import OpenCV library
 
 # Read the original image 'lena.jpg'
-image = cv2.imread('lena.jpg')
+image = cv2.imread('lena_small.jpg')
 
 # Convert the image to grayscale
 gray_image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)

@@ -1,7 +1,7 @@
 import cv2  # Import OpenCV library
 
 # Read the image 'lena.jpg'
-image = cv2.imread('lena.jpg')
+image = cv2.imread('lena_small.jpg')
 
 # Display the original image in a window
 cv2.imshow('Image', image)
